@@ -1,0 +1,42 @@
+/* src/components/AboutMe.css */
+.about-me-section {
+  background-color: #2d3748; /* Slightly darker background */
+  color: #f7fafc;
+  padding: 6rem 0;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.about-container h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  color: #cbd5e0;
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .about-me-section {
+    padding: 4rem 0;
+  }
+  .about-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .about-content p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+}

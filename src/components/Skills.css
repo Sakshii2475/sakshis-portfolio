@@ -1,0 +1,69 @@
+/* src/components/Skills.css */
+.skills-section {
+  background-color: #1a202c; /* Match body background */
+  color: #f7fafc;
+  padding: 6rem 0;
+}
+
+.skills-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.skills-container h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #2d3748; /* Darker background for skill items */
+  border-radius: 8px;
+  text-align: center;
+}
+
+.skill-item img {
+  max-width: 60px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+.skill-item span {
+  font-weight: 500;
+  color: #cbd5e0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .skills-section {
+    padding: 4rem 0;
+  }
+  .skills-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .skills-grid {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 1.5rem;
+  }
+  .skill-item {
+    padding: 1rem;
+  }
+  .skill-item img {
+    max-width: 40px;
+  }
+}

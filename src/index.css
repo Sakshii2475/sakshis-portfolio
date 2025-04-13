@@ -1,0 +1,25 @@
+/* src/index.css */
+/* You might have some global resets or base styles here.
+   If you don't have a specific index.css, this might be empty
+   or you might have similar styles in App.css. */
+
+/* Example of a basic reset you might have: */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px; /* Base font size */
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif; /* Consistent font */
+  background-color: #1a202c;
+  color: #f7fafc;
+  line-height: 1.6;
+}
+
+/* You might have more global styles here */
